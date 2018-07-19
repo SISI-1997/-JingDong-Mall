@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0;font-family:宋体;font-size: 12px;list-style: none;border: none;}
+a{text-decoration: none;color: #666666;}
+a:hover{color: #e4393c;text-decoration: underline;}
+button{ cursor: pointer;}
+#wrap{ background: #fff ;}
+/*header*/
+#header{width: 100%;height: 70px;background: #ffffff;}
+.w{width: 990px;margin: 0 auto;}
+#header .w #logo{float:left;height: 60px;margin: 10px 0;position: relative;width: 300px; }
+#header .w #logo a{display: inline-block;height: 60px;width: 170px;}
+#header .w #logo b{display: block;height: 40px;position: absolute;right: 0;top: 10px;width: 110px;background: url("../img/welcome.png") no-repeat;}
+#header .w .q_link{color: #999999;float: right;position: relative;top: 52px;}
+#header .w .q_link:hover{color: #e4393c;}
+#header .w .q_link b{background:url("../img/q-link.png") no-repeat;display: inline-block;height: 14px; margin:0 5px;overflow: hidden;vertical-align: middle;width: 18px;}
+/*contents*/
+#contents{clear: both;}
+#contents .login_wrap{margin: 10px 0 20px;height: 475px;z-index: 10;position: relative;}
+#contents .login_wrap .login_form{float: right;top: 40px;position: relative;background: #ffffff;width: 346px;z-index: 9; }
+#contents .login_wrap .login_form .login_tab{border-bottom:1px solid #f4f4f4;width: 173px;background: #ffffff;display: block;font-size: 18px;height: 54px;position: absolute;text-align: center;}
+#contents .login_wrap .login_form .login_tab .login_code{font-family:微软雅黑;font-size:18px;outline: 0 none rgb(109,109,109);border-right:1px solid #f4f4f4;height: 18px;left: 0;position: absolute;top: 18px;width: 99%;}
+#contents .login_wrap .login_form .login_tab .login_code:hover{text-decoration:none;font-weight: 600;}
+#contents .login_wrap .login_form .login_account{right: 0;}
+#contents .login_wrap .login_form .code{display: block;padding: 20px 18px 20px 20px ;text-align: center;width: 306px;}
+#contents .login_wrap .login_form .code .mc{overflow:visible;}
+#contents .login_wrap .login_form .code .mc .code_main{height: 168px;margin-top: 55px;position: relative;}
+#contents .login_wrap .login_form .code .mc .code_main .code_img{left: 64px;border: 1px solid #f4f4f4; padding: 8px;position:absolute;width: 155px;}
+#contents .login_wrap .login_form .code .mc .code_main .code_img img{height: 147px;width: 147px;vertical-align: middle;}
+#contents .login_wrap .login_form .code .mc .code_main .code_img .code_fault{padding: 30px 0;display: block;}
+/*#contents .login_wrap .login_form .code .mc .code_main .code_img .code_fault*/
+#contents .login_wrap .login_form .code .mc .code_panel{margin: 18px auto 14px;text-align: center;width: 257px;}
+#contents .login_wrap .login_form .code .mc .code_panel li{display:inline-block;margin: 0 5px 0 0;padding: 0 0 0 5px;}/*????????????*/
+#contents .login_wrap .login_form .code .mc .code_panel .fore1 a{color: #e4393c;}
+#contents .login_wrap .login_form .code .mc .code_panel .fore1 a:hover{text-decoration: none;}
+#contents .login_wrap .login_form .code .mc #qrCoagent{height:26px;background: #ffffff;color: #999999;line-height: 25px;margin-left: 40px;}
+#contents .login_wrap .login_form .code .mc #qrCoagent ul{display: block;}
+#contents .login_wrap .login_form .code .mc #qrCoagent li{padding-left:32px;margin-right: 18px;position: relative;text-align: left;float: left;}
+#contents .login_wrap .login_form .code .mc #qrCoagent .msr{background: url("../img/l_msr.png")no-repeat;}
+#contents .login_wrap .login_form .code .mc #qrCoagent .gk{background: url("../img/l_fast.png")no-repeat;}
+#contents .login_wrap .login_form .code .mc #qrCoagent .gaq{background: url("../img/l_safe.png")no-repeat;}
+#contents .login_wrap .login_form .login_box{padding: 20px;width: 306px;}
+#contents .login_wrap .login_form .login_box .tip_wrap{margin: 40px auto 5px;min-height: 23px;}
+#contents .login_wrap .login_form .login_box .tip_wrap .error{display:none;height:15px;background:url("../img/l_error.png")10px no-repeat #ffebeb;border: 1px solid #faccc6;color: #e4393c;line-height:15px;padding: 3px 10px 3px 40px;position: relative;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item{margin-bottom: 20px;position: relative;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .login_yh{position:absolute;left:0;top:0;background:url("../img/login_yh.png") no-repeat;height:38px;width: 38px;border-right: 1px solid #bdbdbd;z-index: 3;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .forget{color: #666666;position: relative;height: 16px;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .forget span{position: absolute;right: 0;top: 0;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .login_btn{border: 1px solid #cb2a2d;position: relative;width: 99%;height: 32px;line-height: 32px;margin: 0 auto;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .login_btn a{font-family:微软雅黑;background: #e4393c;border:1px solid #e85356;display:block;height:31px;text-align:center;width:302px;font-size: 20px;color: #ffffff;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .login_btn a:hover{text-decoration: none;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item2 .login_yh{background:url("../img/login_password.png") no-repeat;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item4{margin-bottom: 10px;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item .name{border: none;;font-size: 14px;height: 18px;line-height: 18px;padding: 10px 0 10px 50px;width: 254px;overflow: hidden;}
+#contents .login_wrap .login_form .login_box .login_bd .login_item1,.login_item2{border: 1px solid #bdbdbd;height: 38px;width: 304px;}
+#contents .login_wrap .login_form .coagent{background: #fcfcfc;border-top: 1px solid #f4f4f4;height:50px;line-height: 50px;padding:0 20px; }
+#contents .login_wrap .login_form .coagent li{float: left;}
+#contents .login_wrap .login_form .coagent li .qq{display:inline-block;padding-left: 24px;position: relative;background: url("../img/qq.png") left center no-repeat}
+#contents .login_wrap .login_form .coagent li .split{color: #cccccc;padding:0 10px; }
+#contents .login_wrap .login_form .coagent li .wechat{display:inline-block;padding-left: 24px;position: relative;background: url("../img/wechat.png") left center no-repeat}
+#contents .login_wrap .login_form .coagent .ljzc{float: right;}
+#contents .login_wrap .login_form .coagent .ljzc a{display:inline-block;padding-left: 21px;color: #b61d1d;font-size: 14px;background: url("../img/l_ljzc.png")left center no-repeat;}
+#contents .login_wrap .login-banner{background: #19040b;height: 475px;left: 0;position: absolute;top:0;width: 100%;}
+#contents .login_wrap .login-banner .w{margin: 0 auto;width: 990px;height: 475px;background: url("../img/l_banner.png")no-repeat;}
+/*footer*/
+#footer{width: 990px;margin: 0 auto;padding-bottom: 30px;text-align: center;}
+#footer .link a{margin:0 10px;color: #666666;}
+#footer .copyRight{margin: 10px 0;color: #666666;}

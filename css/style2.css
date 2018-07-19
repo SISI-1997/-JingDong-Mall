@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;font-family: 微软雅黑;font-size: 14px;list-style: none;border: none;}
+a{text-decoration: none;color: #666666;}
+a:hover{color: #c81623;}
+button{ cursor: pointer;}
+#wrap{ background: #fff ;}
+/*header*/
+#header{background:rgba(0, 0, 0, 0) url("../img/re_header_bg.jpg") repeat-x left bottom;height: 110px;width: 100%; }
+#header .logo-con{width: 1210px;margin: 0 auto;}
+#header .logo-con .logo{float: left;height: 50px;margin-top: 24px;width: 160px;background: url("../img/re_logo.png") no-repeat;}
+#header .logo-con .logo_tit{color: #333333;float: left;font-size: 24px;height:34px;line-height: 34px;margin-top: 34px;padding-left: 30px;}
+#header .logo-con .have_account{color: #999999;float: right;font-size: 16px;margin-top: 55px;}
+#header .logo-con .have_account a{font-size: 16px;}
+/*contents*/
+#contents{width: 1210px;margin: 0 auto;}
+#contents #form_main{margin: 50px auto 60px;width: 830px;height: 623px;}
+/*form_left*/
+#contents #form_main .reg_form{width: 400px;float: left;}
+#contents #form_main .reg_form #register .form_item{border: 1px solid #dddddd;height: 52px;position: relative;width: 398px;}
+#contents #form_main .reg_form #register .form_item label{float: left;height: 52px;line-height: 52px;padding-left: 20px;width: 90px;}
+#contents #form_main .reg_form #register .form_item span{color: #cccccc;line-height: 46px;margin-left: 20px;margin-top: 1px;position: absolute;}
+#contents #form_main .reg_form #register .form_item input{border: none;font-size: 14px;height: 19px;padding:16px 0 11px 20px;width: 190px;}
+#contents #form_main .reg_form #register .input_tip{height: 27px;padding-top: 5px;}
+#contents #form_main .reg_form #register .input_tip span{background:url("../img/tip.png") no-repeat;font-size: 12px;color: #c5c5c5;height: 27px;padding-left: 23px;}
+#contents #form_main .reg_form #register .form_phone{height: 86px;position: relative;z-index: 2;}
+#contents #form_main .reg_form #register .form_phone .form_item #sel_phone{border: none;color: #666666;height: 52px;padding: 0 0 0 20px;width: 104px; }
+#contents #form_main .reg_form #register .form_phone .form_item #sel_phone .arrow{display: inline-block;height: 15px;width:15px;margin-left: 5px;margin-top: 15px;background: url("../img/arrow.png") center no-repeat;}
+#contents #form_main .reg_form #register .form_phone .orEmail{position: absolute;bottom: 6px;right: 0;}
+#contents #form_main .reg_form #register .form_phone .orEmail a{color: #38f;font-size: 12px;}
+#contents #form_main .reg_form #register .form_item .img_code{cursor: pointer;height: 46px;position: absolute;right: 3px;top: 3px;width: 110px;}
+#contents #form_main .reg_form #register .form_item .phoneCode_btn{background: #f2f2f2;border: none;color: #333;height: 46px;position: absolute;right: 3px;top: 3px;width: 110px;}
+#contents #form_main .reg_form #register .form_agree{color: #333333;font-size: 12px;}
+#contents #form_main .reg_form #register .form_agree input{border: 1px solid #cfd1d3;height: 18px;width: 18px;vertical-align:text-top;}
+#contents #form_main .reg_form #register .form_agree a{color: #38f;font-size: 12px;}
+#contents #form_main .reg_form #register .agree_reg{background: #e22;border: none;color: #ffffff;font-size: 16px;height: 54px;width: 100%;}
+/*form_right*/
+#contents #form_main .reg_other{height: 605px;float: left;border-left: 1px solid #e6e6e6;margin-left: 104px;padding-left: 90px;}
+#contents #form_main .reg_other .company_reg{border-bottom: 1px solid #dddddd;height: 60px;margin-left: 30px;width: 160px;}
+#contents #form_main .reg_other .company_reg a{display: block;height: 30px;width: 112px;padding-left: 48px;background: url("../img/company_reg.png") no-repeat;line-height: 30px;}
+#contents #form_main .reg_other .company_reg a:hover{color: #000000;font-weight: 600;}
+#contents #form_main .reg_other .inter_cust{margin-left: 30px; margin-top:30px;width: 160px;}
+#contents #form_main .reg_other .inter_cust a{display: block;height: 40px;width: 170px;padding-left: 48px;background: url("../img/inter_cust.png") left center no-repeat;line-height: 30px;}
+#contents #form_main .reg_other .inter_cust a:hover{color: #000000;font-weight: 600;}
+/*footer*/
+#footer{clear: both;margin: 0 auto; width: 1210px;border-top: 1px solid #e6e6e6;color: #999999;font-size: 12px;padding-bottom: 30px;text-align: center;}
+#footer .link{padding: 30px 0 15px;}
+#footer .link a{color: #999999;margin:0 10px;}

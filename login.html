@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+    <script type="application/javascript">
+        function smDl(){
+            var code = document.getElementsByClassName("code")[0];
+            var login_box = document.getElementsByClassName("login_box")[0];
+            code.style.display = "block";
+            login_box.style.display = "none";
+        }
+        function zhDl(){
+            var code = document.getElementsByClassName("code")[0];
+            var login_box = document.getElementsByClassName("login_box")[0];
+            code.style.display = "none";
+            login_box.style.display = "block";
+        }
+        function login(){
+            var name = document.getElementById("name");
+            var password = document.getElementById("password");
+            var error = document.getElementsByClassName("error")[0];
+            if(name.value = "邮箱/用户名/已验证手机"){
+                error.style.display = "block";
+                error.innerHTML = "请输入账户名"
+            }
+            else if(password.value = "密码"){
+                error.style.display = "block";
+                error.innerHTML = "请输入密码"
+            }else{
+
+            }
+        }
+        function f(){
+            var error = document.getElementsByClassName("error")[0];
+            error.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div id="lo_wrap">
+        <!-- header-->
+        <div id="lo_header">
+            <div class="w">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="img/login_logo.png" alt="">
+                    </a>
+                    <b></b>
+                </div>
+                <a class="q_link">
+                    <b></b>
+                    登录页面，调查问卷
+                </a>
+            </div>
+        </div>
+        <!-- contents-->
+        <div id="lo_contents">
+            <div class="login_wrap">
+                <div class="w">
+                    <div class="login_form">
+                        <div class="login_tab">
+                            <a class="login_code" href="javascript:void(0)" onclick="smDl()">扫码登录</a>
+                        </div>
+                        <div class="login_tab login_account">
+                            <a class="login_code" href="javascript:void(0)" onclick="zhDl()">账户登录</a>
+                        </div>
+                        <div class="code" style="display: none;">
+                            <div class="mc">
+                                <div class="code_main">
+                                    <div class="code_img">
+                                        <img src="img/l_code.png" alt="">
+                                        <!-- 二维码不能显示-->
+                                        <div class="code_fault" style="display:none;">
+                                            <a href="#none"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="code_panel">
+                                    <ul>
+                                        <li class="fore1">
+                                            打开
+                                            <a href="#">手机京东</a>
+                                        </li>
+                                        <li>扫描二维码</li>
+                                    </ul>
+                                </div>
+                                <div id="qrCoagent">
+                                    <ul>
+                                        <li class="msr">
+                                            免输入
+                                        </li>
+                                        <li class="gk">
+                                            更快
+                                        </li>
+                                        <li class="gaq">
+                                            更安全
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login_box">
+                            <!-- 输入提示-->
+                            <div class="tip_wrap">
+                                <div class="error">
+
+                                </div>
+                            </div>
+                            <div class="login_bd">
+                                <div class="form">
+                                    <form method="post">
+                                        <div class="login_item login_item1">
+                                            <label for="name" class="login_yh"></label>
+                                            <!-- placeholder 属性提供可描述输入字段预期值的提示信息（hint）。
+
+该提示会在输入字段为空时显示，并会在字段获得焦点时消失。-->
+                                            <input id="name" class="name" onfocus="f()" type="text" placeholder="邮箱/用户名/已验证手机">
+                                        </div>
+                                        <div class="login_item login_item2">
+                                            <label for="password" class="login_yh"></label>
+                                            <input id="password" class="name" type="text" placeholder="密码">
+                                        </div>
+                                        <div class="login_item login_item3">
+                                            <div class="forget">
+                                                <span>
+                                                    <a href="#">忘记密码</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="login_item login_item4">
+                                            <div class="login_btn">
+                                                <a id="login" href="javascript:void(0)" onclick="login()">登    录</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 其他方式登录-->
+                        <div class="coagent">
+                            <ul>
+                                <li>
+                                    <a class="qq" href="#">QQ</a>
+                                    <span class="split">|</span>
+                                </li>
+                                <li>
+                                    <a class="wechat" href="#">微信</a>
+                                </li>
+                                <li class="ljzc">
+                                    <a href="register.html">立即注册</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-banner">
+                    <div class="w"></div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-->
+        <div id="lo_footer">
+            <div class="link">
+                <a href="#">关于我们</a>|
+                <a href="#">联系我们</a>|
+                <a href="#">人才招聘</a>|
+                <a href="#">商家入驻</a>|
+                <a href="#">广告服务</a>|
+                <a href="#">手机京东</a>|
+                <a href="#">友情链接</a>|
+                <a href="#">销售联盟</a>|
+                <a href="#">京东社区</a>|
+                <a href="#">京东公益</a>|
+                <a href="#">English Site</a>
+            </div>
+            <div class="copyRight">
+                Copyright © 2004-2017  京东JD.com 版权所有
+            </div>
+        </div>
+    </div>
+</body>
+</html>

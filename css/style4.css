@@ -1,0 +1,70 @@
+*{margin: 0;padding: 0;list-style: none;border: none;font-family: 微软雅黑;color: #666666;font-size: 12px;}
+a{text-decoration: none;color: #666666;}
+a:hover{color: #c81623;}
+/*#header*/
+#header .shortcut{background: #f1f1f1;width: 100%;height: 30px;line-height: 30px;}
+#header .shortcut .w{width: 1210px;margin:0 auto;height: 30px;}
+#header .shortcut .w li{ float: left;height: 30px;padding: 0 2px;}
+#header .shortcut .w .dt{padding: 0 7px;float: left;border-left:1px solid #f1f1f1;border-right:1px solid #f1f1f1;}
+/*送至城市*/
+#header .shortcut .w .city{float: left;}
+#header .shortcut .w #city_more{padding-left:0;}
+#header .shortcut .w .dorpdown{position: relative;z-index: 13;}
+#header .shortcut .w .dorpdown .city_xz{position: relative;}
+#header .shortcut .w #city_more .dt{padding: 0 24px 0 9px;}
+#header .shortcut .w .dorpdown:hover .dt{background: #ffffff;border-left: 1px solid #dddddd;border-right: 1px solid #dddddd; }
+#header .shortcut .w .dorpdown .city_xz .city_icon{height: 5px;width:9px;background:url("../img/list_jt.png") no-repeat;right: 8px;position: absolute;top:12px;transition: transform 0.1s;display: block;}
+#header .shortcut .w .dorpdown-layer, .dorpdown-layer2{ left: 0; padding:10px 0 10px 10px; width: 300px; top: 30px; position: absolute; line-height: 24px; background: #ffffff; border: 1px solid #ddd;z-index: 20;}
+#header .shortcut .w .dorpdown-layer .dd_spacer{ height: 1px; width:97px;background:#ffffff; position: absolute;left: 0;top: -1px;z-index: 35;}
+#header .shortcut .w .dorpdown-layer .city_list{ width: 300px; overflow: auto;}
+#header .shortcut .w .dorpdown-layer .city_list .city_item{ width: 60px;line-height:24px;padding:2px 0;height: 24px;}
+#header .shortcut .w .dorpdown-layer .city_list .city_item .city_sel{ background:#ffffff;padding: 0 8px;}
+#header .shortcut .w .dorpdown-layer .city_list .city_item .city_sel:hover{ background: #c81623;padding: 2px 8px;color: #ffffff;}
+#header .shortcut .w .dorpdown-layer .city_list .city_item .selected{ background: #c81623;padding: 2px 8px;color: #ffffff;}
+/*shortcut_right*/
+#header .shortcut .w .fr{ float: right;}
+#header .shortcut .w .fr .welcome_login{ margin-right: 10px;}
+#header .shortcut .w .fr .welcome_login .link_regist{ color: #c81623;}
+#header .shortcut .w .fr .spacer{ background-color: #dddddd; height: 12px; margin: 9px 0 0; width: 1px;padding: 0;}
+#header .shortcut .w .fr .down-jt{background: url(../img/down-jt.png) no-repeat right center;padding-right:15px;}
+#header .shortcut .w .fr .dt .phone-code{ border:1px solid #e4e4e4; display: block;  width: 66px; height: 66px; background: url(../img/phone-code.png) 3px 4px no-repeat #f6f6f6;}
+/*我的京东*/
+#header .shortcut .w .fr #myJd_more .dt{width: 49px;padding-right: 25px;}
+#header .shortcut .w .fr .dorpdown-layer2{ width: 280px; padding:0; left: 2px; display:none;}
+#header .shortcut .w .fr .dorpdown-layer2 .myjdlist .fore1{width: 265px; height: 72px; border-bottom:1px solid #f1f1f1; padding: 5px 0 5px 15px;}
+#header .shortcut .w .fr .dorpdown-layer2 .myjdlist .fore2{ height: 48px;width: 265px; padding: 5px 0 5px 15px; }
+#header .shortcut .w .fr .dorpdown-layer2 .myjdlist li{padding: 0;float: left;height: 24px;}
+#header .shortcut .w .fr .dorpdown-layer2 .myjdlist li a{float: left; width: 126px; height: 24px; line-height: 24px;}
+#header .shortcut .w .fr .dorpdown-layer2 .myjdlist li a:hover{color:#c81623;}
+#header .shortcut .w .dorpdown-layer2 .dd_spacer{height: 2px; width:81px;background:#ffffff; position: absolute;left: 0;top: -2px;z-index: 35;}
+/*手机京东*/
+#header .shortcut .w .fr #phoneJd_more .dt{width: 49px;padding:0 25px;}
+#header .shortcut .w .fr #phoneJd_more .dt .phone_jd{background: url("../img/list_phoneJD.jpg")no-repeat;height:20px;width: 15px;display: block;left: 7px;top: 5px;position: absolute;}
+#header .shortcut .w .fr #phoneJd_more:hover .dt .phone_jd{background: url("../img/list_phoneJD_hover.jpg")no-repeat;}
+#header .shortcut .w .fr #dorpdown-layer1{ position: absolute;left: 2px; width:250px;}
+#header .shortcut .w .fr #dorpdown-layer1 .dd_spacer{ left:0;width: 99px;}
+#header .shortcut .w .fr #dorpdown-layer1 .myjdlist{ width:250px;height:195px;background: url("../img/list_phoneJDbg.jpg")no-repeat;}
+/*关注京东*/
+#header .shortcut .w .fr #conJd_more .dt{width: 49px;padding-right: 25px;}
+#header .shortcut .w .fr #dorpdown-layer2{ position: absolute;left: 2px; width:81px;padding-bottom: 8px;height: 98px;}
+#header .shortcut .w .fr #dorpdown-layer2 .dd_spacer{ left:0;width: 90px;top:-1px;height: 1px;}
+#header .shortcut .w .fr #dorpdown-layer2 .myjdlist{ width:81px;height:98px;}
+#header .shortcut .w .fr #dorpdown-layer2 .myjdlist img{width: 81px;}
+/*客户服务*/
+#header .shortcut .w .fr #service_more .dt{width: 49px;padding-right: 25px;}
+#header .shortcut .w .fr #dorpdown-layer4{ position: absolute;left: 2px; width: 170px;}
+#header .shortcut .w .fr #dorpdown-layer4 .dd_spacer{ left:0;}
+#header .shortcut .w .fr #dorpdown-layer4 .myjdlist h3{ margin-left:10px; height:24px;}
+#header .shortcut .w .fr #dorpdown-layer4 .myjdlist .fore3{width: 170px; height: 100px;border-bottom: 1px dotted #f1f1f1; margin-bottom: 10px; }
+#header .shortcut .w .fr #dorpdown-layer4 .myjdlist li{ width:70px; height: 24px; line-height: 24px; padding-left:10px; }
+#header .shortcut .w .fr #dorpdown-layer4 .myjdlist .fore4{width: 170px; height:74px;}
+/*网站导航*/
+#header .shortcut .w .fr #web_more .dt{width: 49px;padding-right: 25px;}
+#header .shortcut .w .fr #dorpdown-layer5{ position: absolute;left:-1127px;width:1210px; height: 179px; padding-top:0;}
+#header .shortcut .w .fr #dorpdown-layer5 .dd_spacer{ left: 1129px;}
+#header .shortcut .w .fr #dorpdown-layer5 .myjdlist .wnav_item{float:left; height: 149px; border-right:1px solid #eeeeee; margin: 20px 0 16px 20px;}
+#header .shortcut .w .fr #dorpdown-layer5 .myjdlist .wnav_item1{ width: 347px;}
+#header .shortcut .w .fr #dorpdown-layer5 .myjdlist .wnav_item2{ width: 259px;}
+#header .shortcut .w .fr #dorpdown-layer5 .myjdlist .wnav_item3{ width: 259px;border-right:none;}
+#header .shortcut .w .fr #dorpdown-layer5 .myjdlist .wnav_item h3{height: 24px; line-height: 24px; margin-bottom: 6px;}
+#header .shortcut .w .fr #dorpdown-layer5 .myjdlist .wnav_list li{width: 85px; float: left;}
